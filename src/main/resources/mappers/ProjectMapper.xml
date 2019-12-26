@@ -15,7 +15,7 @@
 	</insert>
 	
 	<select id = "sbPList" resultMap="sbPResult">
-		select * from sb_project;
+		select * from sb_project order by sb_no desc;
 	</select>
 	
 	<select id="sbPView" resultMap="sbPResult">
